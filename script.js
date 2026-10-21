@@ -80,6 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
       success.textContent = "Registration successful! Welcome to the club.";
       success.style.display = "block";
+      alert("Registration successful! Welcome to the club.");
     } else {
       const success = document.getElementById("success-message");
       if (success) {
